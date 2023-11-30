@@ -1,0 +1,1561 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tag
+  -->
+  <title>Elifur - Elegant Living Furniture</title>
+  <meta name="title" content="Elifur - Elegant Living Furniture">
+  <meta name="description" content="This is an eCommerce html web made by eiden">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mr+De+Haviland&family=Roboto:wght@400;500;700&display=swap"
+    rel="stylesheet">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-product-1.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-product-2.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-product-3.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-product-4.jpg">
+  <link rel="preload" as="image" href="./assets/images/hero-product-5.jpg">
+
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <div class="input-wrapper">
+        <input type="search" name="search" placeholder="Search Anything..." class="input-field">
+
+        <ion-icon name="search-outline" aria-hidden="true"></ion-icon>
+      </div>
+
+      <a href="#" class="logo">𝐄𝐥𝐢𝐟𝐮𝐫</a>
+
+      <div class="header-action">
+
+        <button class="header-action-btn" aria-label="user">
+          <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+        </button>
+
+        <button class="header-action-btn" aria-label="favorite list">
+          <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+
+          <span class="btn-badge">0</span>
+        </button>
+
+        <button class="header-action-btn" aria-label="cart">
+          <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+
+          <span class="btn-badge">0</span>
+        </button>
+
+        <button class="header-action-btn" aria-label="open menu" data-nav-toggler>
+          <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+        </button>
+
+      </div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <!-- 
+    - #SIDEBAR
+  -->
+
+  <div class="sidebar" data-navbar>
+
+    <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+      <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+    </button>
+
+    <div class="wrapper">
+
+      <ul class="sidebar-list">
+
+        <li>
+          <p class="sidebar-list-title">Language</p>
+        </li>
+
+        <li>
+          <a href="#" class="sidebar-link">Indonesian</a>
+        </li>
+
+        <li>
+          <a href="#" class="sidebar-link">English</a>
+        </li>
+
+        <li>
+          <a href="#" class="sidebar-link">French</a>
+        </li>
+
+      </ul>
+
+      <ul class="sidebar-list">
+
+        <li>
+          <p class="sidebar-list-title">Currency</p>
+        </li>
+
+        <li>
+          <a href="#" class="sidebar-link">Rupiah</a>
+        </li>
+
+        <li>
+          <a href="#" class="sidebar-link">USD - US Dollar</a>
+        </li>
+
+        <li>
+          <a href="#" class="sidebar-link">Euro</a>
+        </li>
+
+      </ul>
+
+    </div>
+
+    <nav class="navbar">
+      <ul class="navbar-list">
+
+        <li class="navbar-item">
+          <a href="#home" class="navbar-link" data-nav-link>Home</a>
+        </li>
+
+        <li class="navbar-item">
+          <a href="#about" class="navbar-link" data-nav-link>About</a>
+        </li>
+
+        <li class="navbar-item">
+          <a href="#product" class="navbar-link" data-nav-link>Product</a>
+        </li>
+
+        <li class="navbar-item">
+          <a href="#blog" class="navbar-link" data-nav-link>Blogs</a>
+        </li>
+
+      </ul>
+    </nav>
+
+    <ul class="contact-list">
+
+      <li>
+        <p class="contact-list-title">Contact Us</p>
+      </li>
+
+      <li class="contact-item">
+        <address class="address">
+          Jl. Arteri Pd. Indah No.75 E, RT.1/RW.5, Kby. Lama Sel., Kec. Kby. Lama, Daerah Khusus Ibukota Jakarta 12240, Indonesia
+        </address>
+      </li>
+
+      <li class="contact-item">
+        <a href="mailto:support.center@woodex.co" class="contact-link">support.center@elifur.co</a>
+      </li>
+
+      <li class="contact-item">
+        <a href="tel:00001235567890" class="contact-link">(0000) 1235 567890</a>
+      </li>
+
+    </ul>
+
+    <div class="social-wrapper">
+
+      <p class="social-list-title">Follow US On Socials</p>
+
+      <ul class="social-list">
+
+        <li>
+          <a href="#" class="social-link">
+            <ion-icon name="logo-facebook"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="#" class="social-link">
+            <ion-icon name="logo-twitter"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="#" class="social-link">
+            <ion-icon name="logo-tumblr"></ion-icon>
+          </a>
+        </li>
+
+      </ul>
+
+    </div>
+
+  </div>
+
+  <div class="overlay" data-overlay data-nav-toggler></div>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero" id="home" aria-label="home">
+        <div class="container">
+
+          <ul class="hero-list">
+
+            <li>
+              <div class="hero-card">
+
+                <figure class="card-banner img-holder" style="--width: 285; --height: 396;">
+                  <img src="img/sofa.jpg" width="285" height="396" alt="Art Deco Home"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+                  <h3>
+                    <a href="#" class="card-title">Living Room</a>
+                  </h3>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="colspan-2">
+              <div class="hero-card">
+
+                <figure class="card-banner img-holder" style="--width: 568; --height: 389;">
+                  <img src="/img/bed.jpg" width="568" height="389" alt="Helen Chair"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+                  <h3>
+                    <a href="#" class="card-title">Bedroom </a>
+                  </h3>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="hero-card">
+
+                <figure class="card-banner img-holder" style="--width: 285; --height: 396;">
+                  <img src="img/Ruang Makan.jpg" width="285" height="396" alt="Vase Of Flowers"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+                  <h3>
+                    <a href="#" class="card-title">Dining Room</a>
+                  </h3>
+
+                </div>
+
+              </div>
+            </li>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about" id="about" aria-label="about">
+        <div class="container">
+
+          <h2 class="section-title">Elifur Store</h2>
+
+          <p class="section-text">
+            Selamat datang di Elifur, destinasi online eksklusif Anda untuk menemukan keanggunan dalam setiap produk. Kami bangga menyajikan koleksi eksklusif kami, yang dirancang dengan keindahan, fungsionalitas, dan kualitas terbaik sebagai fokus utama.
+          </p>
+
+          <div class="about-card">
+            <figure class="card-banner img-holder" style="--width: 1170; --height: 450;">
+              <img src="img/showroom.jpg" width="1170" height="450" loading="lazy" alt="Virtual Showroom"
+                class="img-cover">
+            </figure>
+
+            <button class="play-btn" aria-label="play video">
+              <ion-icon name="play-circle-outline" aria-hidden="true"></ion-icon>
+            </button>
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #PRODUCTS
+      -->
+
+      <section class="section product" id="product" aria-label="product">
+        <div class="container">
+
+          <div class="title-wrapper">
+            <h2 class="h2 section-title"> Product</h2>
+
+            <ul class="filter-btn-list">
+
+              <li class="filter-btn-item">
+                <button class="filter-btn active" data-filter-btn="all">All Products</button>
+              </li>
+
+              <li class="filter-btn-item">
+                <button class="filter-btn" data-filter-btn="accessory">Living Room</button>
+              </li>
+
+              <li class="filter-btn-item">
+                <button class="filter-btn" data-filter-btn="decoration">Bedroom</button>
+              </li>
+
+              <li class="filter-btn-item">
+                <button class="filter-btn" data-filter-btn="furniture">Dining Room</button>
+              </li>
+
+            </ul>
+          </div>
+
+          <ul class="grid-list product-list" data-filter="all">
+
+            <li class="decoration">
+              <div class="product-card">
+
+                <a href="#" class="card-banner img-holder has-before" style="--width: 300; --height: 300;">
+                  <img src="img/slide.jpg" width="300" height="300" loading="lazy"
+                    alt="SLIDE" class="img-cover">
+
+                  <ul class="card-action-list">
+
+                    <li>
+                      <button class="card-action-btn" aria-label="add to cart" title="add to cart">
+                        <ion-icon name="add-outline" aria-hidden="true"></ion-icon>
+                      </button>
+                    </li>
+
+                    <li>
+                      <button class="card-action-btn" aria-label="add to cart" title="add to cart">
+                        <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                      </button>
+                    </li>
+
+                    <li>
+                      <button class="card-action-btn" aria-label="add to whishlist" title="add to whishlist">
+                        <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+                      </button>
+                    </li>
+
+                  </ul>
+
+                  <ul class="badge-list">
+
+                    <li>
+                      <div class="badge orange">Sale</div>
+                    </li>
+
+                    <li>
+                      <div class="badge cyan">-33%</div>
+                    </li>
+
+                  </ul>
+                </a>
+
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Slide</a>
+                  </h3>
+
+                  <div class="card-price">
+                    <del class="del">Rp. 5.200.000</del>
+
+                    <data class="price" value="10">Rp. 3.484.000</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="accessory">
+              <div class="product-card">
+
+                <a href="#" class="card-banner img-holder has-before" style="--width: 300; --height: 300;">
+                  <img src="img/sleekbeanbag.jpg" width="300" height="300" loading="lazy" alt="Sleek Bean Bag"
+                    class="img-cover">
+
+                  <ul class="card-action-list">
+
+                    <li>
+                      <button class="card-action-btn" aria-label="add to cart" title="add to cart">
+                        <ion-icon name="add-outline" aria-hidden="true"></ion-icon>
+                      </button>
+                    </li>
+
+                    <li>
+                      <button class="card-action-btn" aria-label="add to cart" title="add to cart">
+                        <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                      </button>
+                    </li>
+
+                    <li>
+                      <button class="card-action-btn" aria-label="add to whishlist" title="add to whishlist">
+                        <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+                      </button>
+                    </li>
+
+                  </ul>
+
+                  <div class="card-badge">Out of Stock</div>
+                </a>
+
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Sleek Bean Bag</a>
+                  </h3>
+
+                  <div class="card-price">
+                    <data class="price" value="30">Rp. 2.550.000</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="decoration">
+              <div class="product-card">
+
+                <a href="#" class="card-banner img-holder has-before" style="--width: 300; --height: 300;">
+                  <img src="img/natura.jpg" width="300" height="300" loading="lazy"
+                    alt="Natura - adjustable mattress" class="img-cover">
+
+                  <ul class="card-action-list">
+
+                    <li>
+                      <button class="card-action-btn" aria-label="add to cart" title="add to cart">
+                        <ion-icon name="add-outline" aria-hidden="true"></ion-icon>
+                      </button>
+                    </li>
+
+                    <li>
+                      <button class="card-action-btn" aria-label="add to cart" title="add to cart">
+                        <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                      </button>
+                    </li>
+
+                    <li>
+                      <button class="card-action-btn" aria-label="add to whishlist" title="add to whishlist">
+                        <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+                      </button>
+                    </li>
+
+                  </ul>
+                </a>
+
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Natura - Adjustable Mattress</a>
+                  </h3>
+
+                  <div class="card-price">
+                    <data class="price" value="40">Rp. 40.880.000</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="accessory">
+              <div class="product-card">
+
+                <a href="#" class="card-banner img-holder has-before" style="--width: 300; --height: 300;">
+                  <img src="img/laxsofa.jpg" width="300" height="300" loading="lazy" alt="Lax Sofa"
+                    class="img-cover">
+
+                  <ul class="card-action-list">
+
+                    <li>
+                      <button class="card-action-btn" aria-label="add to cart" title="add to cart">
+                        <ion-icon name="add-outline" aria-hidden="true"></ion-icon>
+                      </button>
+                    </li>
+
+                    <li>
+                      <button class="card-action-btn" aria-label="add to cart" title="add to cart">
+                        <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                      </button>
+                    </li>
+
+                    <li>
+                      <button class="card-action-btn" aria-label="add to whishlist" title="add to whishlist">
+                        <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+                      </button>
+                    </li>
+
+                  </ul>
+                </a>
+
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Lax Sofa</a>
+                  </h3>
+
+                  <div class="card-price">
+                    <data class="price" value="17.10">Rp. 4.690.000</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="accessory">
+              <div class="product-card">
+
+                <a href="#" class="card-banner img-holder has-before" style="--width: 300; --height: 300;">
+                  <img src="img/tetratvconsole.jpg" width="300" height="300" loading="lazy"
+                    alt="Tetra Tv Console" class="img-cover">
+
+                  <ul class="card-action-list">
+
+                    <li>
+                      <button class="card-action-btn" aria-label="add to cart" title="add to cart">
+                        <ion-icon name="add-outline" aria-hidden="true"></ion-icon>
+                      </button>
+                    </li>
+
+                    <li>
+                      <button class="card-action-btn" aria-label="add to cart" title="add to cart">
+                        <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                      </button>
+                    </li>
+
+                    <li>
+                      <button class="card-action-btn" aria-label="add to whishlist" title="add to whishlist">
+                        <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+                      </button>
+                    </li>
+
+                  </ul>
+                </a>
+
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Tetra Tv Console</a>
+                  </h3>
+
+                  <div class="card-price">Rp. 7.900.000</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="furniture">
+              <div class="product-card">
+
+                <a href="#" class="card-banner img-holder has-before" style="--width: 300; --height: 300;">
+                  <img src="img/flexbench.jpg" width="300" height="300" loading="lazy" alt="Flex Bench"
+                    class="img-cover">
+
+                  <ul class="card-action-list">
+
+                    <li>
+                      <button class="card-action-btn" aria-label="add to cart" title="add to cart">
+                        <ion-icon name="add-outline" aria-hidden="true"></ion-icon>
+                      </button>
+                    </li>
+
+                    <li>
+                      <button class="card-action-btn" aria-label="add to cart" title="add to cart">
+                        <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                      </button>
+                    </li>
+
+                    <li>
+                      <button class="card-action-btn" aria-label="add to whishlist" title="add to whishlist">
+                        <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+                      </button>
+                    </li>
+
+                  </ul>
+                </a>
+
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Flex Bench</a>
+                  </h3>
+
+                  <div class="card-price">
+                    <data class="price" value="69.50">Rp. 5.590.000</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="accessory">
+              <div class="product-card">
+
+                <a href="#" class="card-banner img-holder has-before" style="--width: 300; --height: 300;">
+                  <img src="img/musetvconsole.jpg" width="300" height="300" loading="lazy"
+                    alt="Muse Tv Console" class="img-cover">
+
+                  <ul class="card-action-list">
+
+                    <li>
+                      <button class="card-action-btn" aria-label="add to cart" title="add to cart">
+                        <ion-icon name="add-outline" aria-hidden="true"></ion-icon>
+                      </button>
+                    </li>
+
+                    <li>
+                      <button class="card-action-btn" aria-label="add to cart" title="add to cart">
+                        <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                      </button>
+                    </li>
+
+                    <li>
+                      <button class="card-action-btn" aria-label="add to whishlist" title="add to whishlist">
+                        <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+                      </button>
+                    </li>
+
+                  </ul>
+                </a>
+
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Muse Tv Console</a>
+                  </h3>
+
+                  <div class="card-price">
+                    <data class="price" value="30.10">Rp. 8.900.000</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="accessory">
+              <div class="product-card">
+
+                <a href="#" class="card-banner img-holder has-before" style="--width: 300; --height: 300;">
+                  <img src="img/mwsdinig201.jpg" width="300" height="300" loading="lazy"
+                    alt="MWS Dining 201" class="img-cover">
+
+                  <ul class="card-action-list">
+
+                    <li>
+                      <button class="card-action-btn" aria-label="add to cart" title="add to cart">
+                        <ion-icon name="add-outline" aria-hidden="true"></ion-icon>
+                      </button>
+                    </li>
+
+                    <li>
+                      <button class="card-action-btn" aria-label="add to cart" title="add to cart">
+                        <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                      </button>
+                    </li>
+
+                    <li>
+                      <button class="card-action-btn" aria-label="add to whishlist" title="add to whishlist">
+                        <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+                      </button>
+                    </li>
+
+                  </ul>
+                </a>
+
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a href="#" class="card-title">MWS Dining 201</a>
+                  </h3>
+
+                  <div class="card-price">
+                    <data class="price" value="45">Rp. 40.900.000</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="furniture">
+              <div class="product-card">
+
+                <a href="#" class="card-banner img-holder has-before" style="--width: 300; --height: 300;">
+                  <img src="img/annediningchair.jpg" width="300" height="300" loading="lazy" alt="Anne Dining Chair"
+                    class="img-cover">
+
+                  <ul class="card-action-list">
+
+                    <li>
+                      <button class="card-action-btn" aria-label="add to cart" title="add to cart">
+                        <ion-icon name="add-outline" aria-hidden="true"></ion-icon>
+                      </button>
+                    </li>
+
+                    <li>
+                      <button class="card-action-btn" aria-label="add to cart" title="add to cart">
+                        <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                      </button>
+                    </li>
+
+                    <li>
+                      <button class="card-action-btn" aria-label="add to whishlist" title="add to whishlist">
+                        <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+                      </button>
+                    </li>
+
+                  </ul>
+                </a>
+
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Anne Dining Chair</a>
+                  </h3>
+
+                  <div class="card-price">
+                    <data class="price" value="90">Rp. 2.730.000</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="furniture">
+              <div class="product-card">
+
+                <a href="#" class="card-banner img-holder has-before" style="--width: 300; --height: 300;">
+                  <img src="img/wingdiningchair.jpg" width="300" height="300" loading="lazy" alt="Wing Dining Chair"
+                    class="img-cover">
+
+                  <ul class="card-action-list">
+
+                    <li>
+                      <button class="card-action-btn" aria-label="add to cart" title="add to cart">
+                        <ion-icon name="add-outline" aria-hidden="true"></ion-icon>
+                      </button>
+                    </li>
+
+                    <li>
+                      <button class="card-action-btn" aria-label="add to cart" title="add to cart">
+                        <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                      </button>
+                    </li>
+
+                    <li>
+                      <button class="card-action-btn" aria-label="add to whishlist" title="add to whishlist">
+                        <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+                      </button>
+                    </li>
+
+                  </ul>
+                </a>
+
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Wing Dining Chair</a>
+                  </h3>
+
+                  <div class="card-price">
+                    <data class="price" value="40">Rp. 3.130.000</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="decoration">
+              <div class="product-card">
+
+                <a href="#" class="card-banner img-holder has-before" style="--width: 300; --height: 300;">
+                  <img src="img/wardrobeseries303.jpg" width="300" height="300" loading="lazy" alt="Wardrobe Series 303"
+                    class="img-cover">
+
+                  <ul class="card-action-list">
+
+                    <li>
+                      <button class="card-action-btn" aria-label="add to cart" title="add to cart">
+                        <ion-icon name="add-outline" aria-hidden="true"></ion-icon>
+                      </button>
+                    </li>
+
+                    <li>
+                      <button class="card-action-btn" aria-label="add to cart" title="add to cart">
+                        <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                      </button>
+                    </li>
+
+                    <li>
+                      <button class="card-action-btn" aria-label="add to whishlist" title="add to whishlist">
+                        <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+                      </button>
+                    </li>
+
+                  </ul>
+                </a>
+
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Wardrobe Series 303</a>
+                  </h3>
+
+                  <div class="card-price">
+                    <data class="price" value="46">Rp. 28.990.000</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="furniture">
+              <div class="product-card">
+
+                <a href="#" class="card-banner img-holder has-before" style="--width: 300; --height: 300;">
+                  <img src="img/kaydinigtable.jpg" width="300" height="300" loading="lazy" alt="Kay Dining Table"
+                    class="img-cover">
+
+                  <ul class="card-action-list">
+
+                    <li>
+                      <button class="card-action-btn" aria-label="add to cart" title="add to cart">
+                        <ion-icon name="add-outline" aria-hidden="true"></ion-icon>
+                      </button>
+                    </li>
+
+                    <li>
+                      <button class="card-action-btn" aria-label="add to cart" title="add to cart">
+                        <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                      </button>
+                    </li>
+
+                    <li>
+                      <button class="card-action-btn" aria-label="add to whishlist" title="add to whishlist">
+                        <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+                      </button>
+                    </li>
+
+                  </ul>
+                </a>
+
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Kay Dining Table</a>
+                  </h3>
+
+                  <div class="card-price">
+                    <data class="price" value="67">Rp. 19.640.000</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="furniture">
+              <div class="product-card">
+
+                <a href="#" class="card-banner img-holder has-before" style="--width: 300; --height: 300;">
+                  <img src="img/kaygrigiodiningtablewithhenrydiningchair.jpg" width="300" height="300" loading="lazy"
+                    alt="Kay Grigio Dining Table With Henry Dining Chair" class="img-cover">
+
+                  <ul class="card-action-list">
+
+                    <li>
+                      <button class="card-action-btn" aria-label="add to cart" title="add to cart">
+                        <ion-icon name="add-outline" aria-hidden="true"></ion-icon>
+                      </button>
+                    </li>
+
+                    <li>
+                      <button class="card-action-btn" aria-label="add to cart" title="add to cart">
+                        <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                      </button>
+                    </li>
+
+                    <li>
+                      <button class="card-action-btn" aria-label="add to whishlist" title="add to whishlist">
+                        <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+                      </button>
+                    </li>
+
+                  </ul>
+                </a>
+
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Kay Grigio Dining Table With Henry Dining Chair</a>
+                  </h3>
+
+                  <div class="card-price">
+                    <data class="price" value="50">Rp. 19.670.000</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="accessory">
+              <div class="product-card">
+
+                <a href="#" class="card-banner img-holder has-before" style="--width: 300; --height: 300;">
+                  <img src="img/pena.jpg" width="300" height="300" loading="lazy"
+                    alt="Pena" class="img-cover">
+
+                  <ul class="card-action-list">
+
+                    <li>
+                      <button class="card-action-btn" aria-label="add to cart" title="add to cart">
+                        <ion-icon name="add-outline" aria-hidden="true"></ion-icon>
+                      </button>
+                    </li>
+
+                    <li>
+                      <button class="card-action-btn" aria-label="add to cart" title="add to cart">
+                        <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                      </button>
+                    </li>
+
+                    <li>
+                      <button class="card-action-btn" aria-label="add to whishlist" title="add to whishlist">
+                        <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+                      </button>
+                    </li>
+
+                  </ul>
+                </a>
+
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Pena</a>
+                  </h3>
+
+                  <div class="card-price">
+                    <data class="price" value="25">Rp. 49.900.000</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="decoration">
+              <div class="product-card">
+
+                <a href="#" class="card-banner img-holder has-before" style="--width: 300; --height: 300;">
+                  <img src="img/apollobedframe.jpg" width="300" height="300" loading="lazy"
+                    alt="Apollo Bedframe" class="img-cover">
+
+                  <ul class="card-action-list">
+
+                    <li>
+                      <button class="card-action-btn" aria-label="add to cart" title="add to cart">
+                        <ion-icon name="add-outline" aria-hidden="true"></ion-icon>
+                      </button>
+                    </li>
+
+                    <li>
+                      <button class="card-action-btn" aria-label="add to cart" title="add to cart">
+                        <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                      </button>
+                    </li>
+
+                    <li>
+                      <button class="card-action-btn" aria-label="add to whishlist" title="add to whishlist">
+                        <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+                      </button>
+                    </li>
+
+                  </ul>
+                </a>
+
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Apollo Bedframe</a>
+                  </h3>
+
+                  <div class="card-price">
+                    <data class="price" value="15">Rp. 11.000.000</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="decoration">
+              <div class="product-card">
+
+                <a href="#" class="card-banner img-holder has-before" style="--width: 300; --height: 300;">
+                  <img src="/img/sevillelux.jpg" width="300" height="300" loading="lazy"
+                    alt="Seville Lux Mattress" class="img-cover">
+
+                  <ul class="card-action-list">
+
+                    <li>
+                      <button class="card-action-btn" aria-label="add to cart" title="add to cart">
+                        <ion-icon name="add-outline" aria-hidden="true"></ion-icon>
+                      </button>
+                    </li>
+
+                    <li>
+                      <button class="card-action-btn" aria-label="add to cart" title="add to cart">
+                        <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                      </button>
+                    </li>
+
+                    <li>
+                      <button class="card-action-btn" aria-label="add to whishlist" title="add to whishlist">
+                        <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+                      </button>
+                    </li>
+
+                  </ul>
+                </a>
+
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Seville Lux Mattress</a>
+                  </h3>
+
+                  <div class="card-price">
+                    <data class="price" value="77">Rp. 55.880.000</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="decoration">
+              <div class="product-card">
+
+                <a href="#" class="card-banner img-holder has-before" style="--width: 300; --height: 300;">
+                  <img src="img/trinitybedframe.jpg" width="300" height="300" loading="lazy" alt="Trinity Bedframe"
+                    class="img-cover">
+
+                  <ul class="card-action-list">
+
+                    <li>
+                      <button class="card-action-btn" aria-label="add to cart" title="add to cart">
+                        <ion-icon name="add-outline" aria-hidden="true"></ion-icon>
+                      </button>
+                    </li>
+
+                    <li>
+                      <button class="card-action-btn" aria-label="add to cart" title="add to cart">
+                        <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                      </button>
+                    </li>
+
+                    <li>
+                      <button class="card-action-btn" aria-label="add to whishlist" title="add to whishlist">
+                        <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+                      </button>
+                    </li>
+
+                  </ul>
+                </a>
+
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Trinity Bedframe</a>
+                  </h3>
+
+                  <div class="card-price">
+                    <data class="price" value="19">Rp. 8.060.000</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="decoration">
+              <div class="product-card">
+
+                <a href="#" class="card-banner img-holder has-before" style="--width: 300; --height: 300;">
+                  <img src="img/wardrobeseries106.jpg" width="300" height="300" loading="lazy" alt="Wardrobe Series 106"
+                    class="img-cover">
+
+                  <ul class="card-action-list">
+
+                    <li>
+                      <button class="card-action-btn" aria-label="add to cart" title="add to cart">
+                        <ion-icon name="add-outline" aria-hidden="true"></ion-icon>
+                      </button>
+                    </li>
+
+                    <li>
+                      <button class="card-action-btn" aria-label="add to cart" title="add to cart">
+                        <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                      </button>
+                    </li>
+
+                    <li>
+                      <button class="card-action-btn" aria-label="add to whishlist" title="add to whishlist">
+                        <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+                      </button>
+                    </li>
+
+                  </ul>
+                </a>
+
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Wardrobe Series 106</a>
+                  </h3>
+
+                  <div class="card-price">
+                    <data class="price" value="27">Rp. 21.880.000</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="accessory">
+              <div class="product-card">
+
+                <a href="#" class="card-banner img-holder has-before" style="--width: 300; --height: 300;">
+                  <img src="img/chester.png" width="300" height="300" loading="lazy" alt="Chester"
+                    class="img-cover">
+
+                  <ul class="card-action-list">
+
+                    <li>
+                      <button class="card-action-btn" aria-label="add to cart" title="add to cart">
+                        <ion-icon name="add-outline" aria-hidden="true"></ion-icon>
+                      </button>
+                    </li>
+
+                    <li>
+                      <button class="card-action-btn" aria-label="add to cart" title="add to cart">
+                        <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+                      </button>
+                    </li>
+
+                    <li>
+                      <button class="card-action-btn" aria-label="add to whishlist" title="add to whishlist">
+                        <ion-icon name="heart-outline" aria-hidden="true"></ion-icon>
+                      </button>
+                    </li>
+
+                  </ul>
+                </a>
+
+                <div class="card-content">
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Chester</a>
+                  </h3>
+
+                  <div class="card-price">
+                    <data class="price" value="29">Rp. 7.700.000</data>
+                  </div>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #BLOG
+      -->
+
+      <section class="section blog" id="blog" aria-label="blog">
+        <div class="container">
+
+          <div class="title-wrapper">
+            <h2 class="h2 section-title">Our News</h2>
+
+            <a href="#" class="btn-link">
+              <span class="span">View All</span>
+
+              <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+            </a>
+          </div>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="blog-card">
+
+                <div class="card-banner img-holder" style="--width: 374; --height: 243;">
+                  <img src="img/news1.png" width="374" height="243" loading="lazy"
+                    alt=">Menikmati Kenyamanan Duduk di Sofa KORUS dari Elifur." class="img-cover">
+
+                  <a href="#" class="card-btn">
+                    <span class="span">Read more</span>
+
+                    <ion-icon name="add-outline" aria-hidden="true"></ion-icon>
+                  </a>
+                </div>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Menikmati Kenyamanan Duduk di Sofa KORUS dari Elifur</a>
+                  </h3>
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <time class="card-meta-text" datetime="2022-09-27">November 27, 2023</time>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <a href="#" class="card-meta-text">Admin</a>
+                    </li>
+
+                    <li class="card-meta-item">
+                      in <a href="#" class="card-meta-text">livingroom</a>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <div class="card-banner img-holder" style="--width: 374; --height: 243;">
+                  <img src="img/news2.png" width="374" height="243" loading="lazy"
+                    alt="Tren Design Interior 2023 untuk Rumah Anda" class="img-cover">
+
+                  <a href="#" class="card-btn">
+                    <span class="span">Read more</span>
+
+                    <ion-icon name="add-outline" aria-hidden="true"></ion-icon>
+                  </a>
+                </div>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Tren Design Interior 2023 untuk Rumah Anda</a>
+                  </h3>
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <time class="card-meta-text" datetime="2022-09-25">November 25, 2023</time>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <a href="#" class="card-meta-text">Admin</a>
+                    </li>
+
+                    <li class="card-meta-item">
+                      in <a href="#" class="card-meta-text">dining room</a>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <div class="card-banner img-holder" style="--width: 374; --height: 243;">
+                  <img src="img/new3.jpg" width="374" height="243" loading="lazy"
+                    alt="Jenis Kasur Apa Yang Terbaik Untuk Lansia?" class="img-cover">
+
+                  <a href="#" class="card-btn">
+                    <span class="span">Read more</span>
+
+                    <ion-icon name="add-outline" aria-hidden="true"></ion-icon>
+                  </a>
+                </div>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Jenis Kasur Apa Yang Terbaik Untuk Lansia?
+                    </a>
+                  </h3>
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <time class="card-meta-text" datetime="2022-09-18">November 18, 2023</time>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <a href="#" class="card-meta-text">Admin</a>
+                    </li>
+
+                    <li class="card-meta-item">
+                      in <a href="#" class="card-meta-text">bedroom</a>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #NEWSLETTER
+      -->
+
+      <section class="section newsletter" aria-label="newsletter">
+        <div class="container">
+
+          <div class="newsletter-card">
+
+            <div class="card-content">
+              <h2 class="h2 section-title">Our Newsletter</h2>
+
+              <p class="section-text">
+                Subscribe our newsletter and get discount 50% off!!
+              </p>
+            </div>
+
+            <form action="" class="card-form">
+              <input type="email" name="email_address" placeholder="Your email address" required class="email-field">
+
+              <button type="submit" class="newsletter-btn" aria-label="subscribe">
+                <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+              </button>
+            </form>
+
+          </div>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container">
+
+      <div class="footer-top section">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo">𝐄𝐥𝐢𝐟𝐮𝐫</a>
+
+          <ul>
+
+            <li class="footer-list-item">
+              <ion-icon name="location-sharp" aria-hidden="true"></ion-icon>
+
+              <address class="address">
+              Jl. Arteri Pd. Indah No.75 E, RT.1/RW.5, Kby. Lama Sel., Kec. Kby. Lama, Daerah Khusus Ibukota Jakarta 12240, Indonesian 2023
+              </address>
+            </li>
+
+            <li class="footer-list-item">
+              <ion-icon name="call-sharp" aria-hidden="true"></ion-icon>
+
+              <a href="tel:+1234567890" class="footer-link">+1234567890</a>
+            </li>
+
+            <li>
+              <ul class="social-list">
+
+                <li>
+                  <a href="#" class="social-link">
+                    <ion-icon name="logo-facebook"></ion-icon>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#" class="social-link">
+                    <ion-icon name="logo-twitter"></ion-icon>
+                  </a>
+                </li>
+
+                <li>
+                  <a href="#" class="social-link">
+                    <ion-icon name="logo-tumblr"></ion-icon>
+                  </a>
+                </li>
+
+              </ul>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Help & Information</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Help & Contact Us</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Returns & Refunds</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Online Stores</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Terms & Conditions</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">About Us</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">About Us</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">What We Do</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">FAQ Page</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Contact Us</a>
+          </li>
+
+        </ul>
+
+        <div class="footer-list">
+
+          <p class="footer-list-title">Newsletter</p>
+
+          <form action="" class="footer-form">
+            <input type="email" name="email_address" placeholder="Your email address" required class="email-field">
+
+            <button type="submit" class="footer-form-btn">
+              <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+            </button>
+          </form>
+
+          <div class="wrapper">
+
+            <a href="#" class="footer-link">Term & Condition</a>
+            <a href="#" class="footer-link">Policy</a>
+            <a href="#" class="footer-link">Map</a>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+
+        <p class="copyright">
+          &copy; 2023 All Rights Reserved by <a href="#" class="copyright-link">eiden</a>.
+        </p>
+
+      </div>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="arrow-up" aria-hidden="true"></ion-icon>
+  </a>
+
+
+
+
+
+  
+  <script src="script.js" defer></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
